@@ -1,5 +1,6 @@
 const mongoose = require('mongoose')
 const Service = require('../models/Service')
+
 class ServiceController {
   async index (req, res) {
     const services = await Service.find()
@@ -28,7 +29,7 @@ class ServiceController {
   }
 
   async create (req, res) {
-    const service = Service.create(req.body)
+    const service = await Service.create(req.body)
 
     return res.json(service)
   }
