@@ -1,0 +1,13 @@
+{
+    "name": "call-center-app",
+    "version": "0.0.1",
+    "main": "index.js",
+    "repository": "https://github.com/AbreuLF/call-center-app.git",
+    "author": "Luiz Abreu <abreulf@outlook.com>",
+    "license": "MIT",
+    "private": false,
+    "dependencies": {
+        "eslint": "^6.0.1",
+        "express": "^4.17.1"
+    }
+}
